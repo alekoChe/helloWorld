@@ -1,6 +1,10 @@
 public class AppHelloWorld {
     private String hello = "Hello world!";
 
+    public String getHello() {
+        return hello;
+    }
+
     public AppHelloWorld() {
         this.hello = hello;
     }
